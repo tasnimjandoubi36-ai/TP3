@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1">
+    <title>Inscription</title>
+    </head>
+    <body>
+        <h1>Inscription au Club Informatique</h1>
+        <h2>Vos information</h2>
+        <label for="Nom">Nom:</label>
+        <input type="text"><br>
+        <label for="Prénom">Prénom:</label>
+        <input type="text"><br>
+        <label for="E-mail">Adresse e-mail:</label>
+        <input type="email"><br>
+        <label for="message">Téléphone:</label>
+        <input type="tel"><br>
+        <label for="message">Mot de passe:</label>
+        <input type="password"><br>
+        <label for="message">Date de naissance:</label>
+        <input type="date">
+        <fieldset>
+            <legend>Niveau en informatique</legend>
+            <input type="radio" id="Débutant" name="Niveau" value="Débutant">
+            <label for="Débutant">Débutant</label><br>
+            <input type="radio" id="Intermédiaire" name="Niveau" value="Intermédiaire">
+            <label for="Intérmidiaire">Intérmidiaire</label><br>
+            <input type="radio" id="Avancé" name="Niveau" value="Avancé">
+            <label for="Avancé">Avancé</label>
+        </fieldset>
+        <fieldset>
+            <legend>Atelier souhaité</legend>
+            <input type="checkbox" id="Atelier Python" name="atelier" value="Atelier Python">
+            <label for="Atelier Python">Atelier Python</label><br>            
+            <input type="checkbox" id="Atelier Jeux Vidéo" name="atelier" value="Atelier Jeux Vidéo">
+            <label for="Atelier Jeux Vidéo">Atelier Jeux Vidéo</label>
+        </fieldset>
+        <label for="Année d'études">Année d'études</label>
+        <select id="année"name="année">
+            <option value="1ère année">1ère année</option>
+            <option value="2ème année">2ème année</option>
+            <option value="3ème année">3ème année</option>
+        </select><br>
+        <label for="Motivation">Motivation</label>
+        <textarea id="Motivation" name="Motivation" rows="5" cols="40"></textarea><br>
+        <input type="checkbox" id="Règlement" name="Règlement" value="Règlement">
+        <label for="J'accepte le règlement du club">J'accepte le règlement du club</label><br>
+        <button type="submit">Envoyer</button> 
+        <button type="reset">Réinitialiser</button>
+        <footer>
+            <p>© Club informatique</p>
+            <p><a href="file:///C:/faccaloria-L1-semestre1/TPWeb/TP2/index.html">Retour à l'acceuil</a></p>
+        </footer>
+
+    </body>
+</html>
